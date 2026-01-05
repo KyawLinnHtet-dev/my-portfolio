@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">MyPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home">
+        <div class="hero-container">
+
+            <!-- Left side: Text -->
+            <div class="hero-left">
+                <h1>Hello, I am <span class="name-highlight">Kyaw Linn Htet</span></h1>
+                <p class="tagline">Aspiring Full-Stack Developer & Python Learner</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+
+            <!-- Right side: Photo / Bot -->
+            <div class="hero-right">
+                <img src="/images/bot.png" alt="Bot" class="hero-bot" />
+            </div>
+
+        </div>
+    </header>
+
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p class="about-intro">
+            I am a motivated university student with a strong passion for software development
+            and technology. I enjoy understanding how systems work and turning ideas into
+            functional, real-world applications.
+        </p>
+
+        <p>
+            My current focus is on web development using HTML, CSS, and JavaScript, along with
+            Python for application development and basic machine learning concepts. I actively
+            practice by building small projects to strengthen both my coding skills and
+            problem-solving abilities.
+        </p>
+
+        <p>
+            As a student, I am continuously learning, experimenting, and improving. My goal is
+            to gain hands-on experience through internships and collaborative projects while
+            preparing for a future career in the tech industry.
+        </p>
+
+        <h3>Technical Skills</h3>
+
+        <div class="skills">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Python</span>
+            <span class="skill">Tkinter</span>
+            <span class="skill">Machine Learning</span>
+            <span class="skill">Git & GitHub</span>
+        </div>
+    </section>
+
+
+
+    <!-- Projects -->
+    <!-- <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="images/persoanl_password_generator.png" alt="Password Generator App" class="project-img">
+                <h3>Password Generator</h3>
+                <p>A Python Tkinter app for generating secure passwords.</p>
+                <a href="#" class="btn btn-outline">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="/images/hospital_management.png" alt="Machine Learning Model" class="project-img">
+                <h3>Machine Learning Model</h3>
+                <p>Logistic Regression implementation using sklearn.</p>
+                <a href="#" class="btn btn-outline">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="/images/University King Queen Election.png" alt="Portfolio Website" class="project-img">
+                <h3>University King Queen Selection</h3>
+                <p>A C# window form app for University King QUeen Selection voting</p>
+                <a href="#" class="btn btn-outline">View Project</a>
+            </div>
+        </div>
+    </section> -->
+    <!-- <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="/images/persoanl_password_generator.png" alt="Password Generator App">
+                </div>
+
+                <div class="project-content">
+                    <h3>Password Generator</h3>
+                    <p>
+                        A Python Tkinter application that generates secure and customizable passwords.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Tkinter</span>
+                    </div>
+
+                    <a href="#" class="btn btn-outline">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="/images/hospital_management.png" alt="Machine Learning Model">
+                </div>
+
+                <div class="project-content">
+                    <h3>Machine Learning Model</h3>
+                    <p>
+                        Logistic Regression model implemented using scikit-learn for classification.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Sklearn</span>
+                    </div>
+
+                    <a href="#" class="btn btn-outline">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="/images/University King Queen Election.png" alt="University Voting System">
+                </div>
+
+                <div class="project-content">
+                    <h3>University Voting System</h3>
+                    <p>
+                        A C# Windows Forms application for managing university voting and results.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>C#</span>
+                        <span>WinForms</span>
+                    </div>
+
+                    <a href="#" class="btn btn-outline">View Project</a>
+                </div>
+            </div>
+
+        </div>
+    </section> -->
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <p class="section-subtitle">
+            Selected academic and personal projects demonstrating practical development skills.
+        </p>
+
+        <div class="projects-container">
+
+            <!-- Python ML Project -->
+            <div class="project-card">
+                <h3>Breast Cancer Classification</h3>
+                <p class="project-desc">
+                    Machine learning project using scikit-learn to classify tumors as benign or malignant with
+                    supervised learning.
+                </p>
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>scikit-learn</span>
+                    <span>Machine Learning</span>
+                    <span>Logistic Regression</span>
+                </div>
+                <p class="project-learned">
+                    Learned data preprocessing, model training, evaluation, and working with real datasets.
+                </p>
+                <a href="#" class="btn btn-outline">View Project</a>
+            </div>
+
+            <!-- Hospital Management -->
+            <div class="project-card">
+                <h3>Hospital Management System</h3>
+                <p class="project-desc">
+                    Web-based system to manage patient data with JavaScript and localStorage for client-side data
+                    persistence.
+                </p>
+                <div class="project-tags">
+                    <span>JavaScript</span>
+                    <span>LocalStorage</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+                <p class="project-learned">
+                    Learned DOM manipulation, data storage, and dynamic UI updates.
+                </p>
+                <a href="#" class="btn btn-outline">View Project</a>
+            </div>
+
+            <!-- ATM Simulator -->
+            <div class="project-card">
+                <h3>ATM Simulator</h3>
+                <p class="project-desc">
+                    Object-oriented ATM simulation demonstrating encapsulation, inheritance, and transaction handling.
+                </p>
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>OOP</span>
+                </div>
+                <p class="project-learned">
+                    Practiced object-oriented design and method abstraction for real-world simulation.
+                </p>
+                <a href="#" class="btn btn-outline">View Project</a>
+            </div>
+
+            <!-- Job Explorer -->
+            <div class="project-card">
+                <h3>Job Explorer Platform</h3>
+                <p class="project-desc">
+                    Job listing platform built with PHP backend logic for exploring and filtering job opportunities.
+                </p>
+                <div class="project-tags">
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>Backend</span>
+                </div>
+                <p class="project-learned">
+                    Learned server-side development, database connection, and dynamic content generation.
+                </p>
+                <a href="#" class="btn btn-outline">View Project</a>
+            </div>
+
+            <!-- Baby Care Website -->
+            <div class="project-card">
+                <h3>Baby Care Website</h3>
+                <p class="project-desc">
+                    Responsive informational website focused on clean UI design and accessibility for baby care tips.
+                </p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Responsive Design</span>
+                </div>
+                <p class="project-learned">
+                    Learned responsive design, CSS flex/grid, and accessibility best practices.
+                </p>
+                <a href="#" class="btn btn-outline">View Project</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- Experience / Achievements Timeline -->
+    <section id="experience">
+        <!-- <h2>Experience & Achievements</h2> -->
+        <p class="section-subtitle">
+            Academic competitions, cybersecurity challenges, and project experiences.
+        </p>
+
+        <div class="timeline">
+
+            <!-- Timeline Item -->
+            <div class="timeline-item animate">
+                <div class="timeline-badge">🏆</div>
+                <div class="timeline-content">
+                    <h3>School Project Competition</h3>
+                    <p>
+                        Participated in inter-school project competitions showcasing innovative apps and teamwork.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item animate">
+                <div class="timeline-badge">🛡️</div>
+                <div class="timeline-content">
+                    <h3>Cyber Security Challenge</h3>
+                    <p>
+                        Took part in a cybersecurity challenge covering network security, problem-solving, and basic
+                        penetration testing.
+                    </p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Let’s Connect</h2>
+
+        <p class="contact-subtitle">
+            Open to internships, collaboration, and learning opportunities.
+        </p>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea rows="3" placeholder="Message" required></textarea>
+
+            <button type="submit" class="btn">
+                Send Message →
+            </button>
+        </form>
+
+        <div class="contact-links">
+            <a href="mailto:your@email.com">Email</a>
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
